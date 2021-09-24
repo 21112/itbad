@@ -1,0 +1,328 @@
+
+/* layout */
+body {
+    background:#ffffff;
+}
+
+aside {
+    float:right;
+    background: #ffffff;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: rgb(85, 5, 150);
+    
+}
+
+aside img {
+    width: 120px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+    color: #f62020;
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+aside ul {
+    list-style: none}
+
+aside ul li {
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover,aside ul a:hover{
+    color: #eb5959;
+    text-decoration:none;
+    transform: scala(1.05);
+}
+
+main .features {
+    padding-left: 20px;
+    margin: 70px 0 30px;
+    font-size: 2em;
+    line-height: 1.214;
+    font-family: raleway,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #000000;
+    text-transform: none;
+    margin-top: 0;
+    font-weight: bold;
+    
+
+}
+main .features h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 2em;}
+
+main .features p {
+    max-width: 400px; 
+    margin: 20px auto}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+    
+}
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top:50px;
+}
+main .features .text_useb{
+    padding-top: 100px;
+}
+/* description usability style*/
+main .text-content h1{
+    text-align: center;
+    
+}
+main .text-content {
+    color: rgb(94, 92, 92);
+    padding-top: 100px;
+    margin-left: 20%;
+    margin-bottom: 20%;
+    width: 600px;
+}
+
+main .text-content .text_border {
+    margin-top:20%;
+    border: 15px solid rgb(239, 237, 237);
+    border-radius: 0px 50px 50px 50px;
+    
+}
+
+main .text-content .text_border .desc {
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-top:2%;
+}
+
+main .text-content .text_border .desc li {
+    color: red; 
+    margin-top: 15px;
+}
+main .text-content .text_border .desc li span {
+    color: rgb(115, 113, 94);}
+
+
+main .content-main .content__header h1{
+    margin: 70px 0 30px; 
+    text-align: center;
+    font-weight:bolder;
+}
+main .content-main .text__bordered .problem_ka {
+    padding-left: 20px;
+    margin: 70px 0 30px;
+    font-size: 2em;
+    line-height: 1.214;
+    font-family: raleway,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #710606;
+    text-transform: none;
+    margin-top: 0;
+    font-weight: bold;
+}
+main .content-main h2{
+    margin: 70px 0 30px; 
+    text-align: center;
+    font-weight:bolder;
+}
+
+
+/* css for 1 usability site */
+
+main .text-content-1 .text_border {
+    margin-top:20%;
+    border: 10px solid grey;;
+    border-radius: 0px 50px 50px 50px;
+    border-color: rgb(239, 237, 237);
+}
+
+main .text-content-1 h1{
+    text-align: center;
+
+}
+main .text-content-1 h2{
+        font-size: 25px;
+        font-family: raleway,Helvetica Neue,Helvetica,Arial,sans-serif;
+        padding-left: 15px;
+    }
+
+main .text-content-1 {
+    color: rgb(94, 92, 92);
+    padding-top: 100px;
+    margin-left: 20%;
+    margin-bottom: 20%;
+    width: 600px;
+    
+    
+}
+main .text-content-1 .text_border .pp { 
+
+    border-left: 2px solid #f62020; 
+    border-width: 5px; 
+    text-transform: none; 
+    font-family: raleway,Helvetica Neue,Helvetica,Arial,sans-serif; 
+    margin: 15px;
+    border-radius: 10px;}
+
+main .text-content-1 .text_border li {
+    color: red; 
+    margin-top: 15px;
+}
+main .text-content-1 .text_border li span {
+    color: rgb(94, 92, 92);}
+
+main .text-content-1 .det li {
+    color: red; 
+    margin-left: -30px;
+    margin-top: 15px;
+}
+main .text-content-1 .det li span {
+    color: rgb(94, 92, 92);}
+
+main .text-content-1 .order-on li{
+    color: red; 
+    margin-top: 15px;
+}
+main .text-content-1 .order-on li span {
+    color: rgb(94, 92, 92);}
+
+.btn-warning {
+    padding-left: 15px;
+
+    background-color: #60e974;
+    border-color: #60e974;
+}
+
+.btn__wrap {
+    margin: 20px;
+    padding-left: 15%;
+}
+
+main .text-content-1 .accordionWrapper{
+    padding-left: 15px;
+    float:left;
+    width:80%;
+    box-sizing:border-box;
+    margin-bottom: 60px;
+
+}
+main .text-content-1 .accordionItem{
+    float:left;
+    display:block;
+    width:100%;
+    box-sizing: border-box;
+    font-family:'Open-sans',Arial,sans-serif;
+}
+main .text-content-1 .accordionItemHeading{
+    cursor:pointer;
+
+    color:rgb(81, 132, 209);
+    box-sizing: border-box;
+    font-weight: bold ;
+    font-size: 14px;
+    
+}
+main .text-content-1 .close .accordionItemContent{
+    height:0px;
+    transition:height 1s ease-out;
+    -webkit-transform: scaleY(0);
+	-o-transform: scaleY(0);
+	-ms-transform: scaleY(0);
+	transform: scaleY(0);
+    float:left;
+    display:block;
+
+}
+main .text-content-1 .open .accordionItemContent{
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    display:block;
+    -webkit-transform: scaleY(1);
+	-o-transform: scaleY(1);
+	-ms-transform: scaleY(1);
+	transform: scaleY(1);
+    -webkit-transform-origin: top;
+	-o-transform-origin: top;
+	-ms-transform-origin: top;
+	transform-origin: top;
+	-webkit-transition: -webkit-transform 0.4s ease-out;
+	-o-transition: -o-transform 0.4s ease;
+	-ms-transition: -ms-transform 0.4s ease;
+	transition: transform 0.4s ease;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+}
+
+main .text-content-1 .open .accordionItemHeading{
+    position: relative;
+    margin-bottom: 1px;
+    font-size: 14px;
+    font-family: open_sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 2;
+}
+
+
+/* about */
+
+main .who-is-we h1{
+    text-align: center;
+    
+
+}
+
+main .who-is-we {
+    color: rgb(94, 92, 92);
+    padding-top: 100px;
+    margin-left: 20%;
+    margin-bottom: 20%;
+    width: 600px;
+}
+
+main .who-is-we .description-of-firm p{
+    margin-top: 15%;
+    text-align: center;
+    font-size: 25px;
+    font-family: raleway,Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+
+main .who-is-we .description-of-firm li {
+    color: red; 
+    ruby-align : center;
+    
+}
+
+main .who-is-we .description-of-firm li span {
+    ruby-align : center;
+    color: rgb(94, 92, 92);}
+
+main .who-is-we .description-of-firm h5{
+    padding-left: 20%;
+}    
+
+main .who-is-we .description-of-firm .grund-firm{
+    padding-left: 20%;
+    align-content: center;
+    font-family: raleway,Helvetica Neue,Helvetica,Arial,sans-serif; 
+
+}
