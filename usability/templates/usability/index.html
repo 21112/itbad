@@ -1,0 +1,72 @@
+{% extends 'main/layout.html' %}
+
+
+{% block title %} {{ title }} {% endblock %}
+
+
+{% block content %}
+<div class="text-content-1">
+    <div class="content__header">
+    <h1>Usability Site Audit</h1>
+    </div>
+    <div class="text_border">
+        <br>
+            <h2>Haben Sie Probleme:</h2>
+        <ul>
+            <li><span>Erzielt Ihre Website niedrige Conversions?</span></li>
+            <li><span>Sind die meisten Werbekanäle ineffektiv?</span></li>
+            <li><span>Hat Ihre Website Traffic, aber keine Verkäufe?</span></li>
+        </ul>
+        <p class="pp"><strong>&nbsp;&nbsp;&nbsp;&nbsp;Ein Usability Audit einer Site ist eine Diagnose einer Ressource &nbsp;&nbsp;&nbsp;&nbsp;mit dem Ziel, um Fehler in Struktur und Design zu identifizieren, &nbsp;&nbsp;&nbsp;&nbsp;die Benutzer daran hindern können, gezielte Aktionen auf der Site &nbsp;&nbsp;&nbsp;&nbsp;durchzuführen.</strong></p>
+    </div>
+    <br><br><br>
+    <div class="det">
+        <h2>Usability Analyse ermöglicht</h2>
+    <ul>
+    <ol>
+        <li><span>Erfahren Sie, wie Sie Ihre Website benutzerfreundlicher gestalten können.</span></li>
+        <li><span>Erhöhen Sie die Anzahl der Anrufe und Anfragen von einer Webressource, erhöhen Sie die Konversionsraten.</span></li>
+        <li><span>Reduzieren Sie Traffic-Verluste, indem Sie zusätzlich die Werbekosten der Bestellung sparen.</span></li>
+        <li><span>Um Ihre Ressource wettbewerbsfähiger zu machen.</span></li>
+        <li><span>Mit Hilfe der Usability-Bewertung können Sie nicht nur verstehen, was genau verhindert, dass Seitenbesucher zu Kunden werden, sondern auch einen Plan entwickeln, um aus einer unangenehmen Situation herauszukommen.</span></li>
+    </ol>
+    </ul>
+    </div>
+    <br><br><br><br>
+    <div class="order-on">
+        <h2>Website Usability bei uns bestellen!</h2>
+    <ul>
+        <li><span>Am Ende der Usability-Analyse erhalten Sie einen ausführlichen Bericht, der bereits vorhandene Fehler auf der Seite und Lösungen zu deren Beseitigung aufzeigt.</span></li>
+        <li><span>Sie können die Ressource schrittweise verbessern. Alleine geht das nicht – unsere Spezialisten stehen Ihnen schnell zur Seite.</span></li>
+        <li><span>Wenn Sie ein Audit der Website-Usability in der IT Bad in Auftrag geben, können Sie sicher sein, dass erfahrene Webanalysten Ihre Ressource recherchieren. Wir erstellen kompetente und qualitativ hochwertige Analysen, mit denen unsere Kunden erstaunliche Conversions erzielen, Werbebudget einsparen und die Zielaktion der Kunden mit dem letzten Schritt - dem Kauf - abschließen.</span></li>
+    </ul>
+    </div>
+    <br><br><br><br>
+    <h2>Wie bestelle ich eine Usability Analyse?</h2>
+        <div class="btn__wrap">
+        <a href="#request-form" class="btn btn-warning">Bitte um ein Angebot</a>
+        </div>
+        <br><br>
+        <h2>Fragen zum Usability Audit</h2>
+
+    <div class="accordionWrapper">
+        <div class="accordionItem open">
+            <h2 class="accordionItemHeading">Was ist Website Usability? Warum auditieren?</h2>
+            <div class="accordionItemContent">
+                <p>Usability ist der Grad der Benutzerfreundlichkeit einer Website. Es enthält Indikatoren wie die Einfachheit der Benutzeroberfläche, die Geschwindigkeit des Ladens von Seiten, die Funktionsweise von Feedbackformularen, die Konsistenz der Struktur von Seiten und Informationsblöcken usw.
+                    <a href="{% url 'description-usability' %}">Ein Usability Audit</a> ermöglicht es Ihnen, all diese Indikatoren zu bewerten, Mängel aufzudecken und Empfehlungen zu deren Behebung zu geben. Die Korrektur von Fehlern kann die Qualität der Website erheblich verbessern.</p>
+            </div>
+            </div>
+
+            <div class="accordionItem close">
+            <h2 class="accordionItemHeading">Was kann eine hohe Absprungrate verursachen?</h2>
+            <div class="accordionItemContent">
+                <p>Um den genauen Grund für die große Anzahl von Bounces zu verstehen, müssen Sie eine Website-Usability-Analyse durchführen. Es hilft Ihnen zu verstehen, wie schnell die Site geladen wird, wie korrekt sie auf mobilen Geräten und in einigen Browsern angezeigt wird, und bietet auch die Möglichkeit, andere Fehler zu finden, die den Prozess der Nutzung der Site erschweren und Benutzer zum Verlassen der Site zwingen können Ressource, was die Zahl der Ablehnungen erhöht.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
+
